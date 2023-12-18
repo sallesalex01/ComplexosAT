@@ -8,16 +8,8 @@ public class Complexo {
         return parteReal;
     }
 
-    public void setParteReal(double parteReal) {
-        this.parteReal = parteReal;
-    }
-
     public double getParteImaginaria() {
         return parteImaginaria;
-    }
-
-    public void setParteImaginaria(double parteImaginaria) {
-        this.parteImaginaria = parteImaginaria;
     }
 
     public Complexo(double parteReal, double parteImaginaria) {
